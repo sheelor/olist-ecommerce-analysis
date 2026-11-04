@@ -1,0 +1,16 @@
+# 原始数据与可再生成的大体积清洗产物
+data/raw/*.csv
+data/clean/*.csv
+data/clean/*.db
+data/clean/*.sqlite
+
+# 论文不属于公开代码仓库提交范围
+docs/*.docx
+docs/*.pdf
+
+# 临时文件
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.DS_Store
+*.zip
