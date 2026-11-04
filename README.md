@@ -10,7 +10,7 @@
 2. 哪些客户最有价值、如何分层运营？（RFM 八分类 + ABC 帕累托 + 同期群留存）
 3. 品类组合与搭配销售有什么机会？（波士顿矩阵 + Apriori 购物篮分析）
 
-本公开仓库只包含代码、数据说明、模型结果、图表和交互大屏，**不包含课程论文 Word/PDF 文件**。
+本项目包含代码、数据说明、模型结果、图表和交互大屏，**不包含课程论文 Word/PDF 文件**。公开仓库托管代码、汇总结果表和大屏 HTML；23 张静态 PNG 可通过一键复现生成，也已收录在本地提交包中。
 
 ## 二、数据来源
 
@@ -29,8 +29,6 @@
 
 ```text
 olist-ecommerce-analysis/
-├── .github/workflows/
-│   └── generate-assets.yml  # 从官方数据重新生成图表与结果表
 ├── data/
 │   ├── raw/                 # 首次运行自动下载原始 CSV
 │   └── clean/               # 运行后生成清洗结果与 SQLite
@@ -42,8 +40,8 @@ olist-ecommerce-analysis/
 │   ├── 04_visuals.py        # 23 张静态图表，统一 150dpi
 │   └── 05_dashboard.py      # 14 组件 Pyecharts 交互大屏
 ├── outputs/
-│   ├── figures/             # fig01–fig23 + fig24 大屏截图
-│   ├── tables/              # 9 张模型结果表
+│   ├── figures/             # 运行后生成 fig01–fig23 + fig24 大屏截图
+│   ├── tables/              # 运行后生成 9 张模型结果表
 │   └── fig24_交互式可视化大屏.html
 ├── docs/
 │   ├── 数据来源合规声明.md

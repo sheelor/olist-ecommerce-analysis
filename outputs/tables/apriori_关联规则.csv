@@ -1,0 +1,13 @@
+antecedents,consequents,support,confidence,lift
+home_confort,bed_bath_table,0.0551,0.86,3.3044
+bed_bath_table,home_confort,0.0551,0.2118,3.3044
+toys,baby,0.0244,0.3725,3.1246
+baby,toys,0.0244,0.2043,3.1246
+cool_stuff,baby,0.0256,0.2985,2.5036
+baby,cool_stuff,0.0256,0.2151,2.5036
+furniture_decor,bed_bath_table,0.0897,0.3431,1.3185
+bed_bath_table,furniture_decor,0.0897,0.3448,1.3185
+garden_tools,furniture_decor,0.0205,0.2254,0.8616
+housewares,furniture_decor,0.0308,0.2069,0.7911
+baby,bed_bath_table,0.0218,0.1828,0.7024
+housewares,bed_bath_table,0.0256,0.1724,0.6625
